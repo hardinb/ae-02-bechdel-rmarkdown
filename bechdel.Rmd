@@ -58,7 +58,7 @@ bechdel90_13 %>%
             med_intgross = median(intgross_2013, na.rm = TRUE))
 ```
 
-In order to evaluate how return on investment varies among movies that pass and fail the Bechdel test, we'l  first create a new variable called `roi` as the ratio of the gross to budget.
+In order to evaluate how return on investment varies among movies that pass and fail the Bechdel test, we'll  first create a new variable called `roi` as the ratio of the gross to budget.
 
 ```{r}
 bechdel90_13 <- bechdel90_13 %>%
